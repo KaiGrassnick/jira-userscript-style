@@ -2,7 +2,7 @@
 // @name         Jira Navigationbar toggle
 // @namespace    KaiGrassnick
 // @version      0.1
-// @description  Make the Jira Navigationbar toggable
+// @description  Make the Jira Navigationbar toggable, works best with the stylish style (button position etc.)
 // @author       Kai Grassnick
 // @match        https://*.atlassian.net/secure/RapidBoard.jspa*
 // @grant        none
