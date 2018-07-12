@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Jira Navigationbar toggle
 // @namespace    KaiGrassnick
-// @version      0.1
-// @description  Make the Jira Navigationbar toggable, works best with the stylish style (button position etc.)
+// @version      0.2
+// @description  Make the Jira Navigationbar toggable and add target=_blank to external links 
 // @author       Kai Grassnick
 // @match        https://*.atlassian.net/secure/RapidBoard.jspa*
 // @grant        none
@@ -15,4 +15,10 @@
     $("#customMenuToggle").click(function(){
         $("#navigation-app").toggle();
     });
+
+    $(".external-link").attr("target", "_blank");
+
+    setInterval(function() {
+        $(".external-link").attr("target", "_blank");
+    }, 2000);
 })();
