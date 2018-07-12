@@ -13,52 +13,40 @@
     padding-left: 2px;
     font-weight: bold;
 }
-
 #customMenuToggle:hover {
     cursor: pointer;
 }
-
 #breadcrumbs-container {
     margin-top: 0;
     margin-left: 15px;
 }
-
 .adg3 #ghx-header {
     padding: 0;
 }
-
 #ghx-quick-filters {
     margin-bottom: 0;
 }
-
 #ghx-header {
     margin-bottom: 0;
 }
-
 #ghx-detail-view {
     width: 600px !important;
 }
-
 #content {
     margin-left: 10px;
 }
-
 #navigation-app {
     display: none;
 }
-
 .adg3 #ghx-pool-column {
     padding-right: 10px;
 }
-
 .ghx-detail-head .ghx-detail-summary {
     border-bottom: 1px solid #ededed;
 }
-
 .ghx-detail-view.gh-editable-detail-view .ghx-detail-nav-content {
     padding: 0 20px 0 45px;
 }
-
 .issue-body-content .module>.mod-header>h1,
 .issue-body-content .module>.mod-header>h2,
 .issue-body-content .module>.mod-header>h3,
@@ -66,5 +54,4 @@
 .issue-body-content .module>.mod-header>h5,
 .issue-body-content .module>.mod-header>h6 {
     background-color: transparent;
-}
 }
